@@ -2,7 +2,8 @@ import { supabase } from './supabase.js';
 import { mostrarRegistro } from './register.js';
 import { mostrarLogin } from './login.js';
 
-// rutas que usan funciones exportadas desde los módulos de vista
+
+
 const routes = {
   registro: mostrarRegistro,
   login: mostrarLogin,
@@ -40,6 +41,13 @@ function waitFor(selector, timeout = 3000) {
     }, timeout);
   });
 }
+export function mostrarListaUsuario() {
+     const mainContent = document.getElementById('main-content'); 
+     if (mainContent) {
+       mainContent.innerHTML = '<h1>Lista de Usuarios</h1><p>Aquí va la lista...</p>';
+     }
+   }
+
 
 export async function cargarMenu() {
   let menu;

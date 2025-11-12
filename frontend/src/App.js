@@ -10,7 +10,7 @@ function App() {
       <div id="menu"></div> 
 
       {/* contenedor principal donde mostrarás las vistas */}
-      <main id="app"></main>
+      <div id="app"></div>
     </div>
   );
 }
