@@ -1,6 +1,7 @@
 // ...existing code...
 import React from 'react';
 import './style.css';
+import ListaUsuarios from './componente/ListaUsuarios';
 
 function App() {
   return (
