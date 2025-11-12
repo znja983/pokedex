@@ -1,13 +1,17 @@
+// ...existing code...
 import React from 'react';
-import UserList from './componente/ListaUsuarios';
 
 function App() {
   return (
     <div>
-      <h1>React + MySQL Example</h1>
-      <UserList />
+      {/* contenedor donde main.js inserta el menú */}
+      <div id="menu"></div>
+
+      {/* contenedor principal donde mostrarás las vistas */}
+      <main id="app"></main>
     </div>
   );
 }
 
 export default App;
+// ...existing code...
