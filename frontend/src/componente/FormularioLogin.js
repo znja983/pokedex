@@ -10,7 +10,8 @@ function FormularioLogin() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:5001/api/login", {
+      console.log("Enviando login con:", { email, contrasena });
+      const res = await axios.post("http://localhost:5001/api/usuarios/login", {
         email,
         contrasena,
       });

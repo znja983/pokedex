@@ -12,7 +12,7 @@ function FormularioRegistro() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5001/api/register", {
+      await axios.post("http://localhost:5001/api/usuarios/", {
         nombre,
         email,
         telefono,

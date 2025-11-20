@@ -1,7 +1,7 @@
 import React from 'react';
-import UserList from './components/UserList';
-import PaginaAuth from "./componentes/PaginaAuth";
-
+import UserList from './componente/ListaUsuarios';
+import PaginaAuth from "./componente/PaginaAuth";
+import './App.css';
 function App() {
   return (
     <div>

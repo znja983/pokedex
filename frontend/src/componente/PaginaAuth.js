@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import FormularioLogin from "./FormularioLogin";
 import FormularioRegistro from "./FormularioRegistro";
 
+
 function PaginaAuth() {
   const [vista, setVista] = useState("login");
 
